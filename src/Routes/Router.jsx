@@ -3,11 +3,12 @@ import { createBrowserRouter } from "react-router";
 import RootLayout from "../Layoute/RootLayout";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import Home from "../Pages/Home";
-import Signup from "../Pages/Signup";
+
 import Login from "../Pages/Login";
 import AllBook from "../Pages/AllBook";
 import AddBook from "../Pages/AddBook";
 import MyBooks from "../Pages/MyBooks";
+import Signup from "../Pages/Signup";
 
 export const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/signup",
-        element: <Signup />,
+        element: <Signup/>,
       },
       {
         path: "/login",
