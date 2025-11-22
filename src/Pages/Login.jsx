@@ -1,25 +1,31 @@
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../Context/AuthContext";
-import { Link, useNavigate } from "react-router"; // added useNavigate
+import { Link, useNavigate, useLocation } from "react-router"; // added useLocation
 
 const Login = () => {
   const { loginUser, googleLogin } = useContext(AuthContext);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
-  const [showPassword, setShowPassword] = useState(false); // password toggle
-  const navigate = useNavigate(); // added
+  const [showPassword, setShowPassword] = useState(false);
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // where the user wanted to go
+  const from = location.state || "/home";
 
   const handleLogin = (e) => {
     e.preventDefault();
     setError("");
     setSuccess("");
+
     const email = e.target.email.value;
     const password = e.target.password.value;
 
     loginUser(email, password)
       .then(() => {
         setSuccess("Login successful!");
-        navigate("/home"); // redirect after login
+        navigate(from); // redirect to protected page
       })
       .catch((err) => setError(err.message));
   };
@@ -28,7 +34,7 @@ const Login = () => {
     googleLogin()
       .then(() => {
         setSuccess("Google Login successful!");
-        navigate("/home"); // redirect after Google login
+        navigate(from); // also redirect after Google Login
       })
       .catch((err) => setError(err.message));
   };
@@ -49,7 +55,6 @@ const Login = () => {
             required
           />
 
-          {/* Password field with show/hide */}
           <div className="relative">
             <input
               type={showPassword ? "text" : "password"}
@@ -84,6 +89,7 @@ const Login = () => {
           onClick={handleGoogleLogin}
           className="flex items-center justify-center border border-gray-300 py-3 rounded-lg gap-2 hover:bg-gray-100 transition w-full"
         >
+          {/* google icon */}
           <svg
             aria-label="Google logo"
             width="16"

@@ -1,0 +1,162 @@
+[
+  {
+    "title": "The Enchanted Forest",
+    "author": "A. Green",
+    "genre": "Fantasy",
+    "rating": 5,
+    "summary": "A magical journey through an ancient forest filled with mythical creatures.",
+    "coverImage": "https://m.media-amazon.com/images/I/71X2cejZk5L.jpg"
+  },
+  {
+    "title": "Mystery of the Lost Island",
+    "author": "J. Carter",
+    "genre": "Mystery",
+    "rating": 4,
+    "summary": "An adventurous story uncovering the secrets of a mysterious island.",
+    "coverImage": "https://m.media-amazon.com/images/I/51XMC27ZFML._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "Space Odyssey",
+    "author": "L. Armstrong",
+    "genre": "Science Fiction",
+    "rating": 5,
+    "summary": "A thrilling journey across galaxies and distant planets.",
+    "coverImage": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1519633205i/35297381.jpg"
+  },
+  {
+    "title": "The Time Machine",
+    "author": "E. H. Wells",
+    "genre": "Science Fiction",
+    "rating": 4,
+    "summary": "A scientist discovers the secrets of time travel.",
+    "coverImage": "https://m.media-amazon.com/images/I/61dLEkQaBLL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "Romance in Paris",
+    "author": "C. Dupont",
+    "genre": "Romance",
+    "rating": 3,
+    "summary": "A heartwarming love story set in the city of lights.",
+    "coverImage": "https://m.media-amazon.com/images/I/81xFfQfYIkL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "The Detective Chronicles",
+    "author": "S. Holmes",
+    "genre": "Mystery",
+    "rating": 5,
+    "summary": "Follow the thrilling cases of a master detective.",
+    "coverImage": "https://images.squarespace-cdn.com/content/v1/62a65cd93b2f670edafb8d09/f7555340-9e1a-426c-8b07-77b953dd9efa/The_Detective_Chronicles_Cover.jpg?format=2500w"
+  },
+  {
+    "title": "Cooking with Love",
+    "author": "M. Baker",
+    "genre": "Non-Fiction",
+    "rating": 4,
+    "summary": "Delicious recipes with tips and stories behind them.",
+    "coverImage": "https://m.media-amazon.com/images/I/71BbR14nLjL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg"
+  },
+  {
+    "title": "Adventures in the Wild",
+    "author": "D. Explorer",
+    "genre": "Adventure",
+    "rating": 5,
+    "summary": "Surviving and thriving in the most remote wildernesses.",
+    "coverImage": "https://m.media-amazon.com/images/I/71N7XU9AsVL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "The Lost Civilization",
+    "author": "K. Archer",
+    "genre": "History",
+    "rating": 4,
+    "summary": "Exploring the secrets of ancient civilizations.",
+    "coverImage": "https://m.media-amazon.com/images/I/612aF7VrDaL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "Digital Revolution",
+    "author": "T. Tech",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "How technology is shaping the future of humanity.",
+    "coverImage": "https://m.media-amazon.com/images/I/61dJBMnYR5L.jpg"
+  },
+  {
+    "title": "Gardening 101",
+    "author": "L. Green",
+    "genre": "Non-Fiction",
+    "rating": 4,
+    "summary": "A beginner's guide to creating your perfect garden.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE6YFhTW4-F_cWC3g2QN15j6wybyNFkerGOQ&s"
+  },
+  {
+    "title": "Haunted Manor",
+    "author": "G. Spooky",
+    "genre": "Horror",
+    "rating": 3,
+    "summary": "A chilling story set in a mansion with dark secrets.",
+    "coverImage": "https://m.media-amazon.com/images/I/51unzSRChXL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "title": "The Art of Mindfulness",
+    "author": "S. Zen",
+    "genre": "Self-Help",
+    "rating": 5,
+    "summary": "Techniques to live a more mindful and peaceful life.",
+    "coverImage": "https://images-platform.99static.com/C1E9YV_jTw--6GYmgE9F8lpLPik=/0x0:1500x1500/500x500/top/smart/99designs-contests-attachments/151/151225/attachment_151225547"
+  },
+  {
+    "title": "Ocean's Secrets",
+    "author": "P. Diver",
+    "genre": "Adventure",
+    "rating": 4,
+    "summary": "Exploring the hidden wonders beneath the ocean waves.",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHURYK6Ptwa6VaNnlPBm4p1hpvAmj4Wpn_Rg&s"
+  },
+  {
+    "title": "Ancient Myths",
+    "author": "H. Mythos",
+    "genre": "History",
+    "rating": 5,
+    "summary": "A journey through the myths and legends of old civilizations.",
+    "coverImage": "https://via.placeholder.com/200x300?text=Ancient+Myths"
+  },
+  {
+    "title": "The Coding Journey",
+    "author": "C. Dev",
+    "genre": "Technology",
+    "rating": 4,
+    "summary": "Learn programming and create amazing projects.",
+    "coverImage": "https://via.placeholder.com/200x300?text=Coding+Journey"
+  },
+  {
+    "title": "Mind Games",
+    "author": "L. Psych",
+    "genre": "Thriller",
+    "rating": 3,
+    "summary": "A psychological thriller that keeps you guessing.",
+    "coverImage": "https://via.placeholder.com/200x300?text=Mind+Games"
+  },
+  {
+    "title": "City Lights",
+    "author": "R. Urban",
+    "genre": "Romance",
+    "rating": 4,
+    "summary": "Love and life in the bustling city.",
+    "coverImage": "https://via.placeholder.com/200x300?text=City+Lights"
+  },
+  {
+    "title": "Wildlife Wonders",
+    "author": "N. Safari",
+    "genre": "Nature",
+    "rating": 5,
+    "summary": "Amazing stories and photography from the animal kingdom.",
+    "coverImage": "https://via.placeholder.com/200x300?text=Wildlife+Wonders"
+  },
+  {
+    "title": "The Last Kingdom",
+    "author": "F. Knight",
+    "genre": "Fantasy",
+    "rating": 4,
+    "summary": "A tale of heroes, battles, and kingdoms long forgotten.",
+    "coverImage": "https://via.placeholder.com/200x300?text=Last+Kingdom"
+  }
+]

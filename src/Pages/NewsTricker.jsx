@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const NewsTicker = () => {
   return (
-    <div className="overflow-hidden whitespace-nowrap bg-indigo-600 text-white py-3">
+    <div className="overflow-hidden whitespace-nowrap bg-purple-600 text-white py-3">
       <motion.div
         className="text-lg font-semibold"
         initial={{ x: "100%" }}
@@ -18,6 +18,8 @@ const NewsTicker = () => {
         Friday • Explore Our Digital Library • Book Haven — Your Reading
         Companion 📚
       </motion.div>
+
+      
     </div>
   );
 };
