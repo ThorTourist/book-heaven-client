@@ -1,4 +1,4 @@
-[
+{
   {
     "title": "The Enchanted Forest",
     "author": "A. Green",
@@ -110,53 +110,5 @@
     "rating": 4,
     "summary": "Exploring the hidden wonders beneath the ocean waves.",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHURYK6Ptwa6VaNnlPBm4p1hpvAmj4Wpn_Rg&s"
-  },
-  {
-    "title": "Ancient Myths",
-    "author": "H. Mythos",
-    "genre": "History",
-    "rating": 5,
-    "summary": "A journey through the myths and legends of old civilizations.",
-    "coverImage": "https://via.placeholder.com/200x300?text=Ancient+Myths"
-  },
-  {
-    "title": "The Coding Journey",
-    "author": "C. Dev",
-    "genre": "Technology",
-    "rating": 4,
-    "summary": "Learn programming and create amazing projects.",
-    "coverImage": "https://via.placeholder.com/200x300?text=Coding+Journey"
-  },
-  {
-    "title": "Mind Games",
-    "author": "L. Psych",
-    "genre": "Thriller",
-    "rating": 3,
-    "summary": "A psychological thriller that keeps you guessing.",
-    "coverImage": "https://via.placeholder.com/200x300?text=Mind+Games"
-  },
-  {
-    "title": "City Lights",
-    "author": "R. Urban",
-    "genre": "Romance",
-    "rating": 4,
-    "summary": "Love and life in the bustling city.",
-    "coverImage": "https://via.placeholder.com/200x300?text=City+Lights"
-  },
-  {
-    "title": "Wildlife Wonders",
-    "author": "N. Safari",
-    "genre": "Nature",
-    "rating": 5,
-    "summary": "Amazing stories and photography from the animal kingdom.",
-    "coverImage": "https://via.placeholder.com/200x300?text=Wildlife+Wonders"
-  },
-  {
-    "title": "The Last Kingdom",
-    "author": "F. Knight",
-    "genre": "Fantasy",
-    "rating": 4,
-    "summary": "A tale of heroes, battles, and kingdoms long forgotten.",
-    "coverImage": "https://via.placeholder.com/200x300?text=Last+Kingdom"
   }
-]
+}

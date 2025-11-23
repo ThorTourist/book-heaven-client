@@ -20,7 +20,7 @@ const UpdateBook = () => {
         const token = user ? await user.getIdToken() : null;
         const res = await axios.get(
           `${
-            import.meta.env.VITE_API_URL || "http://localhost:3000"
+            import.meta.env.VITE_API_URL || "https://book-heaven-tawny.vercel.app"
           }/book-details/${id}`,
           { headers: { Authorization: `Bearer ${token}` } }
         );
@@ -59,7 +59,7 @@ const UpdateBook = () => {
 
       await axios.put(
         `${
-          import.meta.env.VITE_API_URL || "http://localhost:3000"
+          import.meta.env.VITE_API_URL || "https://book-heaven-tawny.vercel.app"
         }/update-book/${id}`,
         updatedData,
         { headers: { Authorization: `Bearer ${token}` } }

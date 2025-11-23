@@ -114,37 +114,38 @@ const Navbar = () => {
       </div>
 
       {/* Right side: login/logout */}
-      <div className="navbar-end flex items-center gap-3">
+      {/* Right side: login/logout */}
+      <div className="navbar-end flex items-center gap-2">
         {user ? (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 max-w-[120px] md:max-w-full overflow-hidden">
             {user.photoURL && (
               <img
                 src={user.photoURL}
                 alt="User avatar"
-                className="w-8 h-8 rounded-full object-cover border"
+                className="w-8 h-8 rounded-full object-cover border flex-shrink-0"
               />
             )}
 
-            <span className="text-sm font-semibold text-purple-700">
+            <span className="text-sm font-semibold text-purple-700 truncate">
               {user.displayName || user.email.split("@")[0]}
             </span>
 
             <button
               onClick={handleLogout}
-              className="btn btn-outline btn-sm text-purple-700"
+              className="btn btn-outline btn-sm text-purple-700 flex-shrink-0"
             >
               Logout
             </button>
           </div>
         ) : (
-          <>
+          <div className="flex gap-2 flex-wrap">
             <Link to="/login" className="btn btn-sm btn-outline">
               Login
             </Link>
             <Link to="/signup" className="btn btn-sm btn-primary">
               Sign Up
             </Link>
-          </>
+          </div>
         )}
       </div>
     </div>

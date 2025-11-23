@@ -11,7 +11,7 @@ const AllBook = () => {
     let mounted = true;
     axios
       .get(
-        `${import.meta.env.VITE_API_URL || "http://localhost:3000"}/all-books`
+        `${import.meta.env.VITE_API_URL || "https://book-heaven-tawny.vercel.app"}/all-books`
       )
       .then((res) => {
         if (!mounted) return;

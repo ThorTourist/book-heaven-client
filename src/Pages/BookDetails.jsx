@@ -21,7 +21,7 @@ const BookDetails = () => {
 
         const res = await axios.get(
           `${
-            import.meta.env.VITE_API_URL || "http://localhost:3000"
+            import.meta.env.VITE_API_URL || "https://book-heaven-tawny.vercel.app"
           }/book-details/${id}`,
           {
             headers: token ? { Authorization: `Bearer ${token}` } : {},

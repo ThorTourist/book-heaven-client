@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosSecure = axios.create({
-  baseURL: "http://localhost:3000", // change if needed
+  baseURL: "https://book-heaven-tawny.vercel.app", // change if needed
   withCredentials: true,
 });

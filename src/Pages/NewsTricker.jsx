@@ -14,12 +14,9 @@ const NewsTicker = () => {
           ease: "linear",
         }}
       >
-        📢 New Arrivals This Week — 30% Off All Fiction • Author Meetup on
-        Friday • Explore Our Digital Library • Book Haven — Your Reading
-        Companion 📚
+        Discover New Arrivals • Save 30% on Fiction • Join Us This Friday for an
+        Author Meetup • Explore Book Haven — Your Reading Companion
       </motion.div>
-
-      
     </div>
   );
 };

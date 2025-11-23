@@ -40,7 +40,7 @@ const AddBook = () => {
     try {
       setLoading(true);
       const idToken = await user.getIdToken(); // Firebase ID token
-      const res = await axios.post("http://localhost:3000/add-book", formData, {
+      const res = await axios.post("https://book-heaven-tawny.vercel.app/add-book", formData, {
         headers: {
           Authorization: `Bearer ${idToken}`,
         },
